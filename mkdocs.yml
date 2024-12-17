@@ -1,6 +1,9 @@
 # 网站名
 site_name: 笔记
 
+# 版权
+copyright: Copyright &copy; 2024 ddddnet
+
 # 主题
 theme:
   name: 'material'
@@ -19,3 +22,6 @@ nav:
     - MkDocs: Mkdocs.md
     - Markdown基础语法: Markdown.md
     - Windows 批处理指令: WindowsBat.md
+
+markdown_extensions:
+  - pymdownx.highlight
