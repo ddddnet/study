@@ -1,11 +1,5 @@
-# MKdocs与Git常用命令
+# Git常用命令
 
-## Mkdocs常用命令
-
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs gh-deploy` - 将网站部署到github pages.
 
 ## Git 命令
 
@@ -18,7 +12,7 @@
 - `git push -u origin main`
 
 
-### gitignore的使用
+## gitignore的使用
 在工作区新建一个名称为`.gitignore`的文件
 ```
 # dir 不需要提交的目录

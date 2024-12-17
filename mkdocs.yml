@@ -1,4 +1,7 @@
+# 网站名
 site_name: 笔记
+
+# 主题
 theme:
   name: 'material'
   palette:
@@ -7,3 +10,12 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+
+# 导航
+nav:
+  - 首页: index.md
+  - 常用命令:
+    - Git: Git.md
+    - MkDocs: Mkdocs.md
+    - Markdown基础语法: Markdown.md
+    - Windows 批处理指令: WindowsBat.md
