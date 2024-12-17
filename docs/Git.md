@@ -12,7 +12,31 @@
 - `git push -u origin main`
 
 
+
+## Git代理
+
+全局代理
+
+```bash
+git config --global http.proxy http://127.0.0.1:1080
+git config --global https.proxy https://127.0.0.1:1080
+```
+
+取消代理
+
+```bash
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+查看已有配置
+
+```bash
+git config --global -l
+```
+
 ## gitignore的使用
+
 在工作区新建一个名称为`.gitignore`的文件
 ```
 # dir 不需要提交的目录
